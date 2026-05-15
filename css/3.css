@@ -1,0 +1,300 @@
+*{
+	margin: 0;
+	padding: 0;
+			}
+a{
+	color: black;
+}
+
+			/* 头部制作 */
+			
+			/* 大头部 */
+    .top{
+    	 width:100%;
+    	 height: 41.8PX;}
+		 
+		 /* 中间小框架 */
+	.toop{
+			 width:990px;
+			 height:41px;
+			 margin: 0 auto;}
+			 
+			 /* 腾讯标 */
+	.top_1{
+		 	width:150px;
+		 	height: 41PX;
+		 	float: left;}
+			
+			/* 广告标 */
+	.top_2{
+		 	width:230px;
+		 	height: 41PX;
+		 	float: left;
+			margin-right: 350px;}
+	.top_2d1{width: 840px;
+		height: 190px;
+		display: none;
+		position: relative;
+		top: -45.5px;
+		background-color: white;}
+    .top_2d1a{width: 840px;
+		height: 41px;}
+	.top_2d1b{position: relative;
+	left:-150px;}
+	.top_2:hover .top_2d1{display: block;}
+	 
+	 /* 守护标志 */
+	.top_3{width:118px;
+		 	height: 41px;
+			float:left;}
+	.font1{float:right;
+		width:80px;
+		height: 41px;
+		font: 13px/41px "宋体";}
+		
+	/* 未知*/
+	.font1 a{text-decoration: none;
+		color: black;}
+	.font1 a:hover{color: red;}
+	
+	/* 下拉游戏推荐 */
+	.top_4{width:140.9px;
+		 	height: 41PX;
+		 	float:right;	
+			font: 14px/41px "宋体";
+			text-align: center;}
+	.top_4 a{text-decoration: none;
+	         color: black;}
+	.top_4d1{width:1016px;
+			height: 650PX;
+			position: relative;
+			left: -879px;
+			display: none;
+			background-color: white;}
+	.top_4d1 a{color: dimgrey;}		
+	 .top_4:hover .top_4d1{display: block; z-index: 1;}
+     .top_4d1 a:hover{color: black;}
+	.top_4d1a{width:437px;
+				height: 650PX;
+				float: left;
+				padding-left: 50px;}
+	.top_4d1aa{width:112px;
+					height: 50.4PX;
+					float: left;
+					border-left: 5px solid gray;
+					font: 18px/50px "宋体";
+				    margin-right: 250px;}
+	.toplist2{
+			width: 218px;
+			height: 549.6px;
+			background-color: white;
+			float: left;
+			font: 16px/28px "宋体";
+			text-align: left;
+		}
+		.top_4d1b{width:499px;
+				height: 650PX;
+				float: right;
+				padding-left: 30px
+				}
+		.top_4 li{
+			list-style-type: none;
+			margin-bottom: 5px;
+			font:19px/45px "宋体";
+		}
+		
+		.toplist2a{
+				width: 166.2px;
+				height: 549.6px;
+				float: left;
+				font: 16px/28px "宋体";
+				text-align: left;
+			}
+		
+
+/* 导航栏制作 */
+	.top1{width:100%;
+		 	 height: 87PX;
+		 	 background-color:rgb(0,0,0,0.8);
+			
+			 font:20px/60px "宋体";
+			 color:white;
+			 text-align: center;}
+	.top1d1{
+		width: 100%;
+		height: 277px;
+		background-color:rgb(0,0,0,0.7);
+		position: relative;
+		display: none;
+		margin-top: 3px;}		 
+	.top1:hover .top1d1{display: block;} 
+	.top1 a{
+		text-decoration: none;
+		color: rgb(193,192,211);}
+		
+	.toop2{width:930px;
+		height:277px;
+		margin: 0 auto;
+		font: 14px/30px "宋体";}
+	.toop2 a:hover{
+		color: rgb(237,188,87);
+		text-decoration: underline;
+	}
+	.tooplist1{
+		width: 110px;
+		height: 260px;
+		padding-top: 12px;
+		float: left;
+		margin-right: 3px;
+	}
+	.toop1{width:1300px;
+		height:84px;
+		margin: 0 auto;}
+		
+	.top1_1{width:200px;
+		 	height: 54PX;
+			margin-top: 13px;
+		 	float: left;}
+			
+	.top1_2{width:110px;
+		 	height: 84PX;
+		 	float: left;}
+			
+	.top1_2:hover{
+		color:rgb(237,188,87);
+		background-image: linear-gradient(rgb(50,48,45,0.5),rgba(50,48,45,0.8),rgba(212,159,61,0.5));
+		border-bottom: 3px solid orange;}	
+		
+	.topfont{
+		width: 104.5px;
+		height: 20px;
+		margin: 0 auto;
+		font:15px/20px "宋体";}	
+			
+	.top1_3{width:130px;
+			height: 45PX;
+			float:right;
+			position: relative;
+			top:20px;}
+			
+	.top1_4{width:43.6px;
+			height: 43.6PX;
+			float:right;
+			margin-top: 20px;}
+			
+	
+	.top1_5{width:64px;
+			height: 20.8PX;
+			font:15.5px/20.8px "宋体";
+			text-align: left;}
+	.top1_5 a{color:white;}
+			
+	.top1_6{width:130px;
+			height: 23.9PX;
+			font:14px/23.9px "宋体";
+			text-align: left;
+			color: rgb(193,192,211);}
+			
+	
+	
+
+		
+			/* <!--首页返回部分 --> */
+       .main2{width:1200px;
+       		height:22PX;
+       		margin: 0 auto;
+            margin-top: 350px;
+			font: 20px/20px "宋体";} 
+		.main3{width:1200px;
+				height:384PX;
+				margin: 0 auto;
+		     margin-top: 30px;
+					font: 20px/20px "宋体";
+					background-color:  rgb(243,243,243);} 
+		.main3a{width:684px;
+				height:384PX;
+				background-image: url(../main_3img/301.webp);
+		           background-repeat: no-repeat;
+		           background-size: 100%;
+				   float: left;
+				   } 
+				
+		.main3b{background-image: url(../main_3img/304.png);
+		width: 68px;
+		height: 67px;
+		float: left;
+		position: relative;
+		left: 5px;
+		padding-left: 2px;
+		text-align: center;
+		color: white;
+		font: 40px/50px "宋体";
+		}
+		.main3text1{width:478px;
+				height:50PX;
+		         float: left;
+				 margin-top: 24px;
+				 margin-left: 36px;
+				 color: gray;
+					font: 30px/50px "宋体";}
+		.main3text2{width:478px;
+				height:30PX;
+		         float: left;
+				 margin-top: 10px;
+				 margin-left: 36px;
+				 color: gray;
+					font: 18px/30px "宋体";} 
+		.main3img1{width:21px;
+				height:141PX;
+		         float: left;
+				 margin-top: 9px;
+				 margin-left: 36px;} 
+		.main3text3{width:330px;
+				height:25PX;
+		         float: left;
+				 margin-top: 6px;
+				margin-left: 15px;
+				 color: gray;
+					font:18px/25px "宋体";} 
+		.main3text4{width:126px;
+				height:40PX;
+		         float: left;
+				 margin-top: 10px;
+				margin-left: 36px;
+				 color: white;
+				 text-align: center;
+					font:18px/40px "宋体";
+					background-repeat: no-repeat;
+					background-size: 100%;
+					background-image: url(../main_3img/303.png);} 
+	    
+       
+
+
+
+
+	
+	.super{
+		height: 420px;
+		background-image: url(../main_3img/300.webp);
+		background-repeat: no-repeat;
+		background-size: 100%;
+	}
+		.guding{
+			width:128px;
+			height: 247px;
+			position: fixed;
+			top: 50%;
+			right: 2px;
+			text-align: center;
+			background-image: url(../img/100.webp);
+		}
+		.gudingimg{
+			position: relative;
+			top: 125px;
+		}
+		#d1{background-image: url(../main_3img/306.webp);}   
+		#d2{background-image: url(../main_3img/302.webp);}   
+		#d3{background-image: url(../main_3img/303.webp);}   
+		#d4{background-image: url(../main_3img/304.webp);}   
+		#d5{background-image: url(../main_3img/305.webp);}   

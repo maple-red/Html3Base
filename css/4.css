@@ -1,0 +1,670 @@
+*{
+	margin: 0;
+	padding: 0;
+			}
+a{
+	color: black;
+}
+
+			/* 头部制作 */
+			
+			/* 大头部 */
+    .top{
+    	 width:100%;
+    	 height: 41.8PX;}
+		 
+		 /* 中间小框架 */
+	.toop{
+			 width:990px;
+			 height:41px;
+			 margin: 0 auto;}
+			 
+			 /* 腾讯标 */
+	.top_1{
+		 	width:150px;
+		 	height: 41PX;
+		 	float: left;}
+			
+			/* 广告标 */
+	.top_2{
+		 	width:230px;
+		 	height: 41PX;
+		 	float: left;
+			margin-right: 350px;}
+	.top_2d1{width: 840px;
+		height: 190px;
+		display: none;
+		position: relative;
+		top: -45.5px;
+		background-color: white;}
+    .top_2d1a{width: 840px;
+		height: 41px;}
+	.top_2d1b{position: relative;
+	left:-150px;}
+	.top_2:hover .top_2d1{display: block;}
+	 
+	 /* 守护标志 */
+	.top_3{width:118px;
+		 	height: 41px;
+			float:left;}
+	.font1{float:right;
+		width:80px;
+		height: 41px;
+		font: 13px/41px "宋体";}
+		
+	/* 未知*/
+	.font1 a{text-decoration: none;
+		color: black;}
+	.font1 a:hover{color: red;}
+	
+	/* 下拉游戏推荐 */
+	.top_4{width:140.9px;
+		 	height: 41PX;
+		 	float:right;	
+			font: 14px/41px "宋体";
+			text-align: center;}
+	.top_4 a{text-decoration: none;
+	         color: black;}
+	.top_4d1{width:1016px;
+			height: 650PX;
+			position: relative;
+			left: -879px;
+			display: none;
+			background-color: white;}
+	.top_4d1 a{color: dimgrey;}		
+	 .top_4:hover .top_4d1{display: block; z-index: 1;}
+     .top_4d1 a:hover{color: black;}
+	.top_4d1a{width:437px;
+				height: 650PX;
+				float: left;
+				padding-left: 50px;}
+	.top_4d1aa{width:112px;
+					height: 50.4PX;
+					float: left;
+					border-left: 5px solid gray;
+					font: 18px/50px "宋体";
+				    margin-right: 250px;}
+	.toplist2{
+			width: 218px;
+			height: 549.6px;
+			background-color: white;
+			float: left;
+			font: 16px/28px "宋体";
+			text-align: left;
+		}
+		.top_4d1b{width:499px;
+				height: 650PX;
+				float: right;
+				padding-left: 30px
+				}
+		.top_4 li{
+			list-style-type: none;
+			margin-bottom: 5px;
+			font:19px/45px "宋体";
+		}
+		
+		.toplist2a{
+				width: 166.2px;
+				height: 549.6px;
+				float: left;
+				font: 16px/28px "宋体";
+				text-align: left;
+			}
+		
+
+/* 导航栏制作 */
+	.top1{width:100%;
+		 	 height: 87PX;
+		 	 background-color:rgb(0,0,0,0.8);
+			 font:20px/60px "宋体";
+			 color:white;
+			 float: left;
+			 text-align: center;
+			 }
+	.top1d1{
+		width: 100%;
+		height: 277px;
+		background-color:rgb(0,0,0,0.7);
+		position: relative;
+		display: none;
+		margin-top: 3px;}		 
+	.top1:hover .top1d1{display: block;z-index: 1;} 
+	.top1 a{
+		text-decoration: none;
+		color: rgb(193,192,211);}
+		
+	.toop2{width:930px;
+		height:277px;
+		margin: 0 auto;
+		font: 14px/30px "宋体";}
+	.toop2 a:hover{
+		color: rgb(237,188,87);
+		text-decoration: underline;
+	}
+	.tooplist1{
+		width: 110px;
+		height: 260px;
+		padding-top: 12px;
+		float: left;
+		margin-right: 3px;
+	}
+	.toop1{width:1300px;
+		height:84px;
+		margin: 0 auto;}
+		
+	.top1_1{width:200px;
+		 	height: 54PX;
+			margin-top: 13px;
+		 	float: left;}
+			
+	.top1_2{width:110px;
+		 	height: 84PX;
+		 	float: left;}
+			
+	.top1_2:hover{
+		color:rgb(237,188,87);
+		background-image: linear-gradient(rgb(50,48,45,0.5),rgba(50,48,45,0.8),rgba(212,159,61,0.5));
+		border-bottom: 3px solid orange;}	
+		
+	.topfont{
+		width: 104.5px;
+		height: 20px;
+		margin: 0 auto;
+		font:15px/20px "宋体";}	
+			
+	.top1_3{width:130px;
+			height: 45PX;
+			float:right;
+			position: relative;
+			top:20px;}
+			
+	.top1_4{width:43.6px;
+			height: 43.6PX;
+			float:right;
+			margin-top: 20px;}
+			
+	
+	.top1_5{width:64px;
+			height: 20.8PX;
+			font:15.5px/20.8px "宋体";
+			text-align: left;}
+	.top1_5 a{color:white;}
+			
+	.top1_6{width:130px;
+			height: 23.9PX;
+			font:14px/23.9px "宋体";
+			text-align: left;
+			color: rgb(193,192,211);}
+			
+	/* 空白部分 */
+
+	.main1{
+		width: 100%;
+		height: 648PX;
+		padding-top: 150px;
+			margin: 0 auto;
+			background-image: url(../main_4img/401.jpg);
+			background-repeat: no-repeat;
+			background-size: ;
+			background-position: center;
+		}
+		.main1a{
+			width: 1200px;
+			height: 548PX;
+		    margin: 0 auto;}
+	    .main1a1{
+	    	width: 360px;
+	    	height: 548PX;
+			padding-left: 20px;
+	    	background-color:rgb(3,3,20,0.7);}
+		.main1text1{
+			width: 360px;
+			height: 60PX;
+			font:30px/90px "宋体";
+			color: orange;}
+			.main1text2{
+				width: 360px;
+				height: 74PX;
+				font:65px/74px "宋体";
+				color: white;
+				margin-top: 10px;}
+			.main1text3{
+				width: 360px;
+				height: 24PX;
+				font:16px/24px "宋体";
+				margin-top: 10px;
+				color: white;}
+			.main1img1{
+				width:290px;
+				height: 74PX;
+				margin-bottom:25px;}
+			.main1img2{
+				width:140px;
+				height: 80PX;
+				margin-top: 10px;}
+			.main1img3{
+				text-align: center;
+				width:67px;
+				height: 83PX;
+				margin-left: 20px;
+				font:20px/35px "宋体";
+				float: right;}
+			.yuan{
+			width: 205px;
+			height: 8px;
+			background-color: black;
+			float: left;
+			margin-top: 7px;;
+			border-radius: 25px;}
+			.yuan1{
+			width: 123px;
+			height: 8px;
+			float: left;
+			background-color: rgb(231,202,99);
+			border-radius: 25px;}
+			.yuantext{
+			width: 64px;
+			height:24px;
+			float: left;
+			margin-right: 30px;}
+		.main1img4{
+			display: block;
+			width: 67px;
+			height: 69px;
+			border: gray 5px solid;
+			border-radius: 25px;
+			}
+		.main1img4:hover{border-color: orange;}
+		.main1text4{
+			width: 154px;
+			height: 44PX;
+			font:20px/44px "宋体";
+			margin-top: 10px;
+			text-align: center;
+			border:white 3px solid;
+			border-radius: 8px;
+			color: white;}
+	          
+
+		
+			/* <!-- 视频部分 -->	 */
+
+       .main3{ width:1200px;
+		   		height:30PX;
+		   		margin: 0 auto;
+				 font: 20px/20px "宋体";
+				 margin-top: 40px;}
+	    .main3ing1{
+			display: block;
+			width: 25px;
+			height: 20px;
+			float: left;}
+
+/* 第四部分 */
+          .main10{ width:1200px;
+		   		height:377.2PX;
+		   		margin: 0 auto;
+				 font: 20px/20px "宋体";
+				 margin-top: 40px;
+				 background-color: blue;}
+
+
+
+
+
+
+/* 内容中心 */
+	.main4{
+		 width:1200px;
+		 height: 376PX;
+		 margin: 0 auto;
+		 margin-top: 32.4px;}
+		 
+	.main4 a:hover{color: rgb(238,185,84);}
+	.main4_1{
+		 width:772px;
+		 height: 376PX;
+		 margin-right:20px; 
+		 float: left;}
+	.main4_1a{
+		 width:772px;
+		 height: 26PX;
+		 float: left;
+		}
+	.main4_1aa{
+		 width:30px;
+		 height: 26PX;
+		 float: left;
+		 margin-right: 7px;
+	}
+	.main4_1ab{
+		 width:105px;
+		 height: 26PX;
+		 float: left;
+		 font:22px/26px "宋体 ";
+	}
+
+	
+	/* 下拉视频一堆 */
+	.main4_1b{
+		 width:770px;
+		 height: 120PX;
+		 float: left;
+	}
+	/* 赛事精品 */
+	.main4_1ba{
+		 width:92px;
+		 height: 88PX;
+		 float: left;
+		 text-align: center;
+		border: solid 3px gray;
+		 background-color:rgb(230,230,230);
+		 border-radius: 75px;;
+		 margin-left: 15px;
+		 margin-right: 20px;
+		 margin-top: 10px;}
+	.main4_1ba:hover{border: rgb(238,185,84)  solid 3px   ;}
+	.main4_1c{
+		 width:760px;
+		 height: 150PX;
+		 float: left;
+		 padding-left: 10px;
+	}
+	.main4_1d{
+		 width:755px;
+		 height: 180PX;
+		 text-align: left;
+		 float: left;
+		 background-color: white;
+		 position: relative;
+		 padding-top: 20px;
+		 top: 2px;
+		 left: -150px;
+		 display: none;
+		 padding-left: 10px; }
+	#d4a:hover .main4_1d{display: block;}
+	.main4_1da{
+		 width:755px;
+		 height: 180PX;
+		 text-align: left;
+		 float: left;
+		 background-color: white;
+		 position: relative;
+		 padding-top: 20px;
+		 top: 2px;
+		 left: -282px;
+		 display: none;
+		 padding-left: 10px; }
+	#d4b:hover .main4_1da{display: block;}
+	.main4_1db{
+		 width:755px;
+		 height: 180PX;
+		 text-align: left;
+		 float: left;
+		 background-color: white;
+		 position: relative;
+		 padding-top: 20px;
+		 top: 2px;
+		 left: -414px;
+		 display: none;
+		 padding-left: 10px; }
+	#d4c:hover .main4_1db{display: block;}
+			 
+			 
+	.main4_1biga{border:solid 1px rgb(229,229,229);
+	width: 769px;
+	height: 343px;
+	float: left;
+	 border:solid 1px rgb(229,229,229);
+	}
+	
+	
+	.main4_2{
+		 width:408px;
+		 height: 376PX;
+		  float: left;
+
+	}
+	.main4_2a{
+		 width:408px;
+		 height: 26PX;
+		 float: left;}
+	.main4_2aa{
+		 width:24px;
+		 height: 28PX;
+		 float: left;
+		 margin-right: 7px;
+	}
+	.main4_2ab{
+		 width:108px;
+		 height: 26PX;
+		 float: left;
+		 font:18px/26px "宋体 ";
+	}
+	.main4_2bigb{
+	width: 408px;
+	float: left;
+	margin-top: 2px;
+	height: 348px; 
+	border:solid 1px rgb(229,229,229);}
+	.main4_2b{
+		 width:130px;
+		 height: 200PX;
+		 float: left;
+		 text-align: center;
+		 margin-top: 20px;
+		 margin-left: 5px;
+		 font:16px/25px "宋体 ";}
+	.main4_2c{
+		 width:385px;
+		 height: 40PX;
+		 float: left;
+		 margin-top: 40px;
+		 background-color:#e2e2e2;
+		font:16px/40px "宋体 ";
+		 margin-left: 5px;
+	}
+	
+	.main5{
+		 width:1200px;
+		 height: 397.6PX;
+		 margin: 0 auto;
+		 margin-top: 50px;}
+		 
+		 .main5_1{
+		 	 width:772px;
+		 	 height: 397.6PX;
+		 	 margin-right:20px; 
+		 	 float: left;
+		 }
+		 .main5_1a{
+		 	 width:772px;
+		 	 height: 26PX;
+		 	 float: left;}
+		.main5_1aa{
+			 width:30px;
+			 height: 26PX;
+			 float: left;
+			 margin-right: 7px;
+		}
+		.main5_1ab{
+			 width:105px;
+			 height: 26PX;
+			 float: left;
+			 font:17px/26px "宋体 ";
+		}
+		.main5_1b{
+			 width:750px;
+			 height: 121.6PX;
+			 float: left;
+			 border:solid 1px rgb(229,229,229);
+			 padding-left: 20px;
+		}
+		.main5_1ba{
+			 width:92px;
+			 height: 88PX;
+			 float: left;
+			border: solid 3px gray;
+			 text-align: center;
+			 border-radius: 75px;;
+			 margin-left: 15px;
+			 margin-right: 20px;
+			 margin-top: 10px;
+			 overflow: hidden;
+		}
+		.main5_1bc{
+			 width:92px;
+			 height: 88PX;
+			 float: left;
+			border: solid 3px gray;
+			 text-align: center;
+			 border-radius: 35px;;
+			 margin-left: 15px;
+			 margin-right: 20px;
+			 margin-top: 10px;
+			 overflow: hidden;
+		}
+		.main5text1{
+			height: 20px;
+			float: left;
+			margin-top:35px ;
+		}
+		.main5_1c{
+			height: 31px;
+			width: 250px;
+			float: left;
+			background-color: #e2e2e2;
+			margin-top:10px ;
+			text-align:center;
+			border: solid 1px gray;
+			border-bottom:solid 2px gray;
+			font:15px/26px "宋体 ";
+		}
+		.main5_1c:hover{border-bottom:solid 2px orange;
+		color: orange;}
+		.main5_1d{
+			height: 119px;
+			width: 770px;
+			float: left;
+			background-color: #e2e2e2;
+			background-color: white;
+			text-align:center;
+			border:solid 1px rgb(229,229,229);
+		}
+		.main5_1da{
+			height: 110px;
+			width: 700px;
+			float: left;
+			color: black;
+			background-color: #e2e2e2;
+			background-color:white;
+			text-align:center;
+			position: relative;
+			top: 7px;
+			z-index: -1;
+			display: nene;
+			left: -240px;}
+		 #d5a:hover .main5_1da{display: block;
+		 z-index: +1;}
+		
+		.main5_1db{
+			height: 110px;
+			width: 700px;
+			float: left;
+			color: black;
+			background-color: #e2e2e2;
+			background-color: white;
+			text-align:center;
+			position: relative;
+			top: 7px;
+			display: none;
+			left: -500px;}
+		#d5b:hover .main5_1db{display: block;}
+		 .main5_2{
+		 	 width:408px;
+		 	 height: 397.6PX;
+		 	  float: left;
+		 }
+		 .main5img1{
+			 display: block;
+			 float: left;
+			 margin-left: 20px;
+			 margin-top: 30px;
+		 }
+		 .main5_2b{height: 321px;
+		 width: 408px;
+		 float: left;
+		 border:solid 1px rgb(229,229,229);}
+		 .main5_2c{height: 319px;
+		 width: 400px;
+		 float: left;
+		 position: relative;
+		 color: black;
+		 top: 7px;
+		 left: -194px;
+		 display: none;
+		 text-align: left;
+		 background-color: white;}
+		 #d5c:hover .main5_2c{display: block;}
+		 
+		 .main6{
+		 	 width:1200px;
+		 	 height: 570PX;
+		 	 margin: 0 auto;
+		 	 padding-top: 50px;}
+			.main6_1{
+				 width:1200px;
+				 height: 26PX;
+				 float: left;}
+			.main6_1ac{
+				 width:26px;
+				 height: 26PX;
+				 float: right;
+				 font:13px/26px "宋体 ";
+			}
+			.main6_1ad{
+				 width:14px;
+				 height: 26PX;
+				 background-color: blue;
+				 float:right;
+				 margin-right:5px;
+			}
+			.main6_2{
+				height: 429.6px;
+				width: 1185px;
+				float: left;
+				text-align:center;
+			border:solid 1px rgb(229,229,229);
+				margin-top: 20px;
+				padding-left: 15px;
+			}
+			.main6_2a{
+				 width:212px;
+				 height: 175PX;
+				 float: left;
+				 margin-top:30px;
+				 margin-right: 8px;
+				 font: 15px/21px "宋体";
+				 color: black;
+				 text-align: left;}
+				.main6text{
+					width: 209px;
+					height: 44px;
+					display: -webkit-box;
+					-webkit-box-orient: vertical;
+					overflow: hidden;
+					-webkit-line-clamp: 2;
+				}
+				.guding{
+					width:128px;
+					height: 247px;
+					position: fixed;
+					top: 50%;
+					right: 2px;
+					text-align: center;
+					background-image: url(../img/100.webp);
+				}
+				.gudingimg{
+					position: relative;
+					top: 125px;
+				}
