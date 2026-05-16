@@ -1,1 +1,1 @@
-模仿王者官网的一个前端页面
+This is a front-end page imitating the official website of Honor of Kings
